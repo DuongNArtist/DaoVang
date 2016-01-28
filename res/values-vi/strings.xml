@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Đào Vàng</string>
+    <string name="str_money">Tiền:</string>
+    <string name="str_goal">Mục tiêu:</string>
+    <string name="str_time">Thời gian:</string>
+    <string name="str_level">Cấp độ:</string>
+    <string name="str_cost">1000</string>
+    <string name="str_name">Xin chào:</string>
+    <string name="str_score">Tiền:</string>
+    <string name="btn_rate">Đánh giá</string>
+    <string name="btn_other_app">Ứng dụng khác</string>
+    <string name="btn_ranking">Xếp hạng</string>
+    <string name="btn_instruction">Hướng dẫn</string>
+    <string name="btn_menu">Thực đơn</string>
+    <string name="btn_start">Bắt đầu</string>
+    <string name="btn_replay">Chơi lại</string>
+    <string name="btn_save">Lưu tiền</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_pause">Tạm dừng</string>
+    <string name="btn_play">Chơi</string>
+    <string name="btn_quit">Thoát</string>
+    <string name="btn_next">Qua cửa</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="btn_close">Đóng</string>
+    <string name="btn_ok">OK</string>
+    <string name="msg_loading">Đang tải</string>
+    <string name="msg_invalid">Tên đăng nhập không hợp lệ!</string>
+    <string name="msg_register">Xin hãy đăng ký một tài khoản!</string>
+    <string name="msg_registed">Tài khoản của bạn đã được đăng ký!</string>
+    <string name="msg_unregisted">Tài khoản của bạn chưa được đăng ký!</string>
+    <string name="msg_pause">Tạm dừng</string>
+    <string name="msg_no_connection">Không có kết nối mạng!</string>
+    <string name="msg_saved">Số tiền của bạn đã được lưu!</string>
+    <string name="msg_unsaved">Số tiền của bạn chưa được lưu!</string>
+    <string name="msg_next_goal" formatted="false">Cấp độ tiếp theo là %1$s\nMục tiêu tiếp theo là %2$s</string>
+    <string name="msg_your_score" formatted="false">Số tiền của bạn là %1$s</string>
+    <string name="msg_your_name">Mời bạn nhập tên</string>
+    <string name="stt_on">Âm thanh mở</string>
+    <string name="stt_off">Âm thanh tắt</string>
+
+    <string-array name="instructions">
+        <item>Rất nhẹ, trị giá chỉ $50.</item>
+        <item>Khá nhẹ, trị giá $100.</item>
+        <item>Khá nặng, trị giá $250.</item>
+        <item>Rất nặng, trị giá tới $500.</item>
+        <item>Rất nặng, trị giá chỉ $10.</item>
+        <item>Rất nặng, trị giá chỉ $20.</item>
+        <item>Rất nhẹ, trị giá tới $600.</item>
+        <item>Rất nhẹ, có thể chứa tiền, thuốc tăng lực hoặc mìn.</item>
+        <item>Phát nổ ngay khi chạm vào, đồng thời phá hủy các vật thể gần nó.</item>
+        <item>Rất nhẹ, di chuyển liên tục, trị giá chỉ $2.</item>
+        <item>Rất nhẹ, di chuyển liên tục và mang theo kim cương, trị giá chỉ $602.</item>
+        <item>Rất nhẹ, trị giá chỉ $2.</item>
+        <item>Rất nhẹ, trị giá chỉ $2.</item>
+    </string-array>
+
+</resources>

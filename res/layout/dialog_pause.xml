@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/and_bkg_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding" >
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:text="@string/msg_pause"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_play"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_play"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_save"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_save"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_next"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_next"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_menu"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_menu"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+</LinearLayout>

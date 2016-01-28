@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/and_bkg_shop"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_money"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:text="@string/msg_your_score"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_0"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_diamond"
+                android:src="@drawable/and_shop_diamond" />
+
+            <TextView
+                android:id="@+id/tv_item_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_1"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_lucky"
+                android:src="@drawable/and_shop_lucky" />
+
+            <TextView
+                android:id="@+id/tv_item_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_2"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_mine"
+                android:src="@drawable/and_shop_mine" />
+
+            <TextView
+                android:id="@+id/tv_item_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_3"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_power"
+                android:src="@drawable/and_shop_power" />
+
+            <TextView
+                android:id="@+id/tv_item_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_4"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_stone"
+                android:src="@drawable/and_shop_stone" />
+
+            <TextView
+                android:id="@+id/tv_item_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_item_5"
+                android:layout_width="@dimen/item"
+                android:layout_height="@dimen/item"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/and_btn"
+                android:contentDescription="@drawable/and_shop_time"
+                android:src="@drawable/and_shop_time" />
+
+            <TextView
+                android:id="@+id/tv_item_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_start"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_start"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+</LinearLayout>

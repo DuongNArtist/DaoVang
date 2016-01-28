@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gold Miner</string>
+    <string name="str_money">Money:</string>
+    <string name="str_goal">Goal:</string>
+    <string name="str_time">Time:</string>
+    <string name="str_level">Level:</string>
+    <string name="str_cost">1000</string>
+    <string name="str_name">Hello:</string>
+    <string name="str_score">Money:</string>
+    <string name="btn_rate">Rate Me</string>
+    <string name="btn_other_app">Other App</string>
+    <string name="btn_ranking">Ranking</string>
+    <string name="btn_instruction">Instruction</string>
+    <string name="btn_menu">Menu</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_replay">Replay</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_quit">Quit</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_ok">OK</string>
+    <string name="msg_loading">Loading</string>
+    <string name="msg_invalid">Invalid username!</string>
+    <string name="msg_register">Please register account!</string>
+    <string name="msg_registed">Your account is registed!</string>
+    <string name="msg_unregisted">Your account isn\'t registed!</string>
+    <string name="msg_pause">Game Pause</string>
+    <string name="msg_no_connection">No internet connection!\nPlease connect Wifi or 3G!</string>
+    <string name="msg_saved">Your money is saved!</string>
+    <string name="msg_unsaved">Your money is not saved!</string>
+    <string name="msg_next_goal" formatted="false">Next level is %1$s\nNext Goal is %2$s</string>
+    <string name="msg_your_score" formatted="false">Your money is %1$s</string>
+    <string name="msg_your_name">Enter your name</string>
+    <string name="stt_on">On Sound</string>
+    <string name="stt_off">Off Sound</string>
+    <string name="stt_no">No.</string>
+    <string name="stt_name">Name</string>
+    <string name="stt_level">Level</string>
+    <string name="stt_score">Score</string>
+
+    <string-array name="instructions">
+        <item>Very light, worth only $50.</item>
+        <item>Quite mild, worth $100.</item>
+        <item>Quite heavy, worth $250.</item>
+        <item>Very heavy, worth up to $500.</item>
+        <item>Very heavy, worth only $10.</item>
+        <item>Very heavy, worth only $20.</item>
+        <item>Very light, worth up to $600.</item>
+        <item>Very light, may contain money, tonic or dynamite.</item>
+        <item>Detonate when touched, and destroy objects near it.</item>
+        <item>Very light, moving constantly, worth only $2.</item>
+        <item>Very light, moving constantly and bring diamonds, worth only $602.</item>
+        <item>Very light, worth only $2.</item>
+        <item>Very light, worth only $2.</item>
+    </string-array>
+
+</resources>

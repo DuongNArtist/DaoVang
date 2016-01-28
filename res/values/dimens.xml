@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="margin">8dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="item">50dp</dimen>
+    <dimen name="bt_width">120dp</dimen>
+    <dimen name="size">30dp</dimen>
+
+</resources>

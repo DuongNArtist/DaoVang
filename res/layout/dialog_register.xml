@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/and_bkg_dialog"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_register"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:text="@string/msg_register"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_bkg_text"
+        android:ems="10"
+        android:hint="@string/msg_your_name"
+        android:singleLine="true" >
+
+        <requestFocus android:layout_width="match_parent" />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_register"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@drawable/and_btn"
+        android:text="@string/btn_register"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+</LinearLayout>
